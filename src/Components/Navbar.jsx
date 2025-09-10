@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import { AiOutlineClose, AiOutlineMenu } from "react-icons/ai";
 const Navbar = () => {
   const [nav, setNav] = useState(false);
@@ -7,13 +7,14 @@ const Navbar = () => {
   };
   return (
     <div className="text-white flex justify-between h-24 mx-auto px-4 max-h-[1240px] items-center">
-      <h1 className="w-full text-3xl font-bold text-lime-600">React</h1>
-      <ul className='hidden md:flex '>
+      <h1 className="text-3xl font-bold text-lime-600">React</h1>
+      <ul className="hidden md:flex ">
         <li className="p-4">Resources</li>
         <li className="p-4">Company</li>
         <li className="p-4">Home</li>
         <li className="p-4">About</li>
         <li className="p-4">Contact</li>
+        <li className="hidden lg:inline w-fit p-4">Display in lg</li>
       </ul>
       <div onClick={handleNav} className="block md:hidden">
         {nav ? <AiOutlineClose size={20} /> : <AiOutlineMenu size={20} />}
