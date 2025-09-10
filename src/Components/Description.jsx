@@ -20,8 +20,8 @@ const Description = () => {
             Get Started
           </button>
         </div>
-        <div className="w-1/2 h-40 bg-red-500">1223234</div>
-        <div className="w-1/2 h-40 bg-red-500">1223234</div>
+        {/* <div className="w-1/2 h-40 bg-red-500">1223234</div>
+        <div className="w-1/2 h-40 bg-red-500">1223234</div> */}
       </div>
     </div>
   );

@@ -12,7 +12,7 @@ const Content = () => {
           React is fun to learn!
         </h1>
         <div className="flex justify-center items-center">
-          <p className="md:text-5xl sm:text-3xl text-xl font-bold ">
+          <p className=" sm:text-3xl md:text-5xl text-xl font-bold lg:text-red-400 sm:text-green-400 md:text-blue-400">
             First you must learn
           </p>
           <Typed

@@ -15,7 +15,7 @@ const Email = () => {
               type="email"
               placeholder="Enter email"
             />
-            <button className="bg-lime-600 text-black mx-auto px-6 py-3 my-6 ml-4 font-medium  w-[200px] rounded-md">
+            <button className="bg-lime-600 text-black mx-auto px-6 py-3 my-6 ml-0  sm:ml-4 font-medium  w-[200px] rounded-md">
               Notify me
             </button>
           </div>
